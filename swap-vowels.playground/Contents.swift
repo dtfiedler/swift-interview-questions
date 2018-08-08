@@ -3,8 +3,7 @@
 import UIKit
 
 //Question: Swap vowels in a string
-var string = "hello"
-print("Original string: \(string)")
+let strings = ["hello", "leetcode", "hello there, how are you?"]
 //result should be holle
 let vowels: [Character] = ["a", "e", "i", "o", "u"]
 func swapVowels(s: String) -> String {
@@ -28,5 +27,11 @@ func swapVowels(s: String) -> String {
     let swapped = String(chars)
     return swapped
 }
-string = swapVowels(s: string)
-print("Swapped string: \(string)")
+
+//iterate throught all strings
+for var s in strings {
+    print("Original string: \(s)")
+    s = swapVowels(s: s)
+    print("Swapped string: \(s)")
+}
+
