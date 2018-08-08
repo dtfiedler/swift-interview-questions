@@ -1,4 +1,3 @@
-
 //Question: rotate a 2D array (a matrix) of integers 90 degrees like the one below
 //matrix will always be NxN
 var matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
