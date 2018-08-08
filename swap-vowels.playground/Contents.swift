@@ -4,6 +4,7 @@ import UIKit
 
 //Question: Swap vowels in a string
 var string = "hello"
+print("Original string: \(string)")
 //result should be holle
 let vowels: [Character] = ["a", "e", "i", "o", "u"]
 func swapVowels(s: String) -> String {
@@ -28,3 +29,4 @@ func swapVowels(s: String) -> String {
     return swapped
 }
 string = swapVowels(s: string)
+print("Swapped string: \(string)")
