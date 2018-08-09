@@ -3,7 +3,7 @@
 import UIKit
 
 //build a function that checks if a string is a palindrome
-let strings = ["abba", "racecar" , "false", "hannah"]
+let strings = ["abba", "racecar" , "donkey", "hannah"]
 
 func isPalindrome(s: String) -> Bool{
     //break it into array of characters
